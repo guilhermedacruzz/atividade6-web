@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    opacity: 1;
+    font-family: "Poppins", sans-serif;
+    background-color: #000814;
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; 
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #000814; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffffff44; 
+    border: none;
+}
+
+header, .navbar {
+    background-color: transparent;
+}
+
+.navbar {
+    background-color: #00000030;
+    padding: 8px 25px;
+}
+
+.logo {
+    width: 45px;
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: clamp(1rem, 1.1vw, 1.3rem);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.navbar-brand:hover {
+    color: #feec04;
+    transform: scale(0.9);
+}
+
+.navbar-nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: clamp(1rem, 1.1vw, 1.3rem);
+    transition: 0.2s;
+}
+
+.navbar-nav a:hover {
+    color: #feec04;
+    transform: scale(0.9);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#slide-menu .carousel-inner, #slide-menu .carousel-item {
+    height: 80vh;
+}
+
+#slide-menu .carousel-inner, #slide-menu .carousel-item img{ 
+    height: 100%;   
+    object-fit: cover;
+}
+
+#slide-menu .carousel-caption {
+    top: 30%;
+}
+
+#slide-menu .carousel-caption h5 {
+    font-size: clamp(1.7rem, 3.2vw, 4.2rem);
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 0 0 3px #000000;
+}
+  
+#slide-menu .carousel-caption p {
+    font-size: clamp(1.1rem, 2.3vw, 2.6rem);
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+    text-shadow: 0 0 3px #000000;
+}
+
+#slide-menu .carousel-caption a {
+    font-size: clamp(1rem, 1.1vw, 1.3rem);
+    color: #ffffff99;
+    background-color: #00081477;
+    text-decoration: none;
+    border: 2px solid #ffffff99;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 13px 26px;
+}
+
+#slide-menu .carousel-caption a:hover {
+    color: #feec04;
+    text-decoration: underline;
+    border-color: #feec04;
+}
+
+.title {
+    width: 100%;
+    background-color: #001d3d;
+}
+
+.title .row,
+.title .col-12 {
+    margin: 0;
+    padding: 0;
+}
+
+.title h2 {
+    padding: 15px;
+    font-size: clamp(1.4rem, 1.7vw, 2.1rem);
+}
+
+.list .row,
+.list .col-md-5,
+.list .col-md-7 {
+    margin: 0;
+    padding: 0;
+}
+
+.list .col-md-5,
+.list .col-md-7 {
+    padding: 15px;
+}
+
+.list .row {
+    padding: 40px;
+    margin-top: 25px;
+}
+
+.list iframe,
+.list img {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.list h2 {
+    font-size: clamp(2rem, 3vw, 4rem);
+    padding: 0px 10px;
+}
+
+.list p {
+    text-align: justify;
+    padding: 0px 10px;
+    font-size: clamp(.8rem, 1.1vw, 1.5rem);
+}
+
+.list a {
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #001d3d;
+}
+
+#footer h5 {
+    font-size: clamp(.8rem, 1.1vw, 1.5rem);
+}
+
+#footer p {
+    font-size: clamp(.8rem, 1.1vw, 1.5rem);
+}
+
+#footer-back {
+    background-color: #00000030;
+}
+
+.link-text {
+    color: #feec04;
+    text-decoration: none;
+}
+
+.link-text:hover {
+    color: #feec04;
+    text-decoration: underline;
+}
